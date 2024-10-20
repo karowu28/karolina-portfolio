@@ -1,87 +1,69 @@
-/* General Style Settings */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karolina Wu - Hospitality Professional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Karolina Wu</h1>
+        <p>Hospitality & Tourism Management Professional</p>
+    </header>
 
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Karolina Ya Qing Wu Wu, a passionate hospitality professional specializing in Lodging Management. With extensive experience in front-of-house and back-of-house roles, I am currently pursuing my degree at the University of Guelph, LANG School of Business.</p>
+    </section>
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 2em 0;
-}
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Four Seasons Hotel & Resort</h3>
+            <p>Lodging Reservations Agent | May - August 2024</p>
+            <ul>
+                <li>Handled lodging reservations for a luxury hotel</li>
+                <li>Improved customer satisfaction through personalized service</li>
+                <li>Collaborated with the sales team to optimize booking efficiency</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>PJ's Restaurant</h3>
+            <p>Front-of-House & Back-of-House | September 2023 - Present</p>
+            <ul>
+                <li>Worked in multiple restaurant roles to enhance guest experiences</li>
+                <li>Developed leadership skills in managing a student-run establishment</li>
+            </ul>
+        </div>
+    </section>
 
-header p {
-    font-size: 1.2em;
-    margin-top: 0.5em;
-}
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Customer Service Excellence</li>
+            <li>Lodging Management</li>
+            <li>Technology & Analytical Tools</li>
+            <li>Team Leadership</li>
+        </ul>
+    </section>
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:karolina@example.com">karolina@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/karolina-wu" target="_blank">Karolina Wu</a></p>
+    </section>
 
-nav ul li {
-    display: inline-block;
-    margin: 0 1em;
-}
-
-section {
-    padding: 2em;
-    margin: 2em 0;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 0.5em;
-    font-size: 2em;
-}
-
-h3 {
-    margin: 1em 0 0.5em 0;
-    color: #444;
-}
-
-.job ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #333;
-    color: white;
-    margin-top: 2em;
-}
-
-footer p {
-    margin: 0;
-}
-
-/* Contact Section */
-.contact p {
-    font-size: 1.1em;
-}
-
-.contact a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.contact a:hover {
-    text-decoration: underline;
-}
+    <footer>
+        <p>&copy; 2024 Karolina Wu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
